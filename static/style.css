@@ -1,3 +1,14 @@
 body {
-    background: #fcfcfc;
+    background: darkblue;
+    animation-name: BLUE ; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
 }
+
+@keyframes BLUE {
+
+	from{background-color:darkblue;}
+	to{background-color: lightblue;}
+}
+
